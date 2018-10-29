@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# question: define a function which gives product of 1 or more numbers
 
 def product(*y):
     if y==():
