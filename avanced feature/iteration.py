@@ -12,7 +12,7 @@ def findMinAndMax(L):
             max=value        
     return (min,max)
 
-# 测试
+# Test
 if findMinAndMax([]) != (None, None):
     print('Test failed!')
 elif findMinAndMax([7]) != (7, 7):
