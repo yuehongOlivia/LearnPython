@@ -3,4 +3,5 @@
     "python.pythonPath": "C:\\Users\\zhaow\\AppData\\Local\\Programs\\Python\\Python36-32\\python.exe",
     "window.zoomLevel": 0,
     "git.ignoreMissingGitWarning": true,
+    "python.formatting.provider": "black",
 }

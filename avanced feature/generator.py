@@ -22,3 +22,5 @@ print(next(g))
 print(next(g))
 print(next(g))
 print(next(g))
+
+# further question : StopIteration usage
