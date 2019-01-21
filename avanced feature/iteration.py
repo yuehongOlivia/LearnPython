@@ -5,7 +5,7 @@ def findMinAndMax(L):
         return (None,None)
     min=L[0]
     max=L[0]
-    for i,value in enumerate(L):
+    for value in enumerate(L):
         if value<min:
             min=value
         if value>max:
