@@ -9,8 +9,17 @@ class Student(object):
         return self.__gender
     
     def set_gender(self,gender):
-        self.__gender=gender
-        
+        if gender.lower()=='male'|gender.lower()=='female':
+            self.__gender=gender
+        else:
+            return 'bad gender'
+    
+    def get_name(self):
+        return self.__name
+    
+    def set_name(self,name):
+        self.__name=name
+
 # Test:
 bart = Student('Bart', 'male')
 if bart.get_gender() != 'male':
